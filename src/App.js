@@ -16,7 +16,7 @@ const App = () => {
       }
     }, [setLoginState]);
 
-    return null;
+    return null; // test.
   };
 
   return (
