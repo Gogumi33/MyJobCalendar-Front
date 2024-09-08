@@ -30,7 +30,8 @@
     "styled-components": "^6.1.11",
     "web-vitals": "^2.1.4"
   },
-  "proxy": "http://223.130.135.136",
+  "proxy": "http://ec2-54-205-129-196.compute-1.amazonaws.com",
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
