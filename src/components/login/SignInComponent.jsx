@@ -124,7 +124,7 @@ function SignInComponent({ toggleComponent, handleLogin, closeModal }) {
               value={email}
               autoComplete="new-password"
               onChange={(event) => setEmail(event.target.value)}
-              placeholder='로그인'
+              placeholder='아이디'
             />
           </InputDiv>
         </div>
