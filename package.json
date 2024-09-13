@@ -30,7 +30,7 @@
     "styled-components": "^6.1.11",
     "web-vitals": "^2.1.4"
   },
-  "proxy": "https://ec2-54-205-129-196.compute-1.amazonaws.com",
+  "proxy": "http://myjobcal.duckdns.org",
 
   "scripts": {
     "start": "react-scripts start",
