@@ -76,7 +76,8 @@ function CreateInfoPost() {
     };
 
     try {
-      const response = await fetch('https://mjcback.duckdns.org/api/freeboard/create', {
+      // const response = await fetch('https://mjcback.duckdns.org/api/freeboard/create', {
+      const response = await fetch('https://myjobcal.duckdns.org/api/freeboard/create', {  
         method: 'POST',
         credentials: 'include',
         headers: {
