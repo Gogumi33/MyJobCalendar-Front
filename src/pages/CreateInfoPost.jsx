@@ -76,6 +76,7 @@ function CreateInfoPost() {
     };
 
     try {
+      // 정보게시판에만 따로 response URL 존재 => 주의할 것.
       // const response = await fetch('https://mjcback.duckdns.org/api/freeboard/create', {
       const response = await fetch('https://myjobcal.duckdns.org/api/freeboard/create', {  
         method: 'POST',
